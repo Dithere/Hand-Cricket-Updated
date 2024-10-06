@@ -25,15 +25,16 @@ one.addEventListener("click",()=>{
     
     
     if(rand!=1){
-        rand = Math.floor(
-            Math.random() * nmbrs.length  
-        )
+        
         ys.innerHTML ="1"
         os.innerHTML=rand
         cs=cs+rand
         count=count+rand
         run.innerHTML=count
         rs.innerHTML=cs
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
     }
     else{
         rand = Math.floor(
@@ -51,16 +52,16 @@ one.addEventListener("click",()=>{
 run.innerHTML=count
 two.addEventListener("click",()=>{
     if(rand!=2){
-        rand = Math.floor(
-            Math.random() * nmbrs.length
-            
-        )
+
         ys.innerHTML ="2"
         os.innerHTML=rand
         cs=cs+rand
         count=count+rand
         run.innerHTML=count
         rs.innerHTML=cs
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
 
     }
     else{
@@ -77,16 +78,16 @@ two.addEventListener("click",()=>{
 })
 three.addEventListener("click",()=>{
     if(rand!=3){
-        rand = Math.floor(
-            Math.random() * nmbrs.length
-            
-        )
+
         ys.innerHTML ="3"
         os.innerHTML=rand
         cs=cs+rand
         count=count+rand
         run.innerHTML=count
         rs.innerHTML=cs
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
     }
     
     else{
@@ -104,16 +105,16 @@ three.addEventListener("click",()=>{
 four.addEventListener("click",()=>{
 
     if(rand!=4){
-        rand = Math.floor(
-            Math.random() * nmbrs.length
-            
-        )
+
         ys.innerHTML ="4"
         os.innerHTML=rand
         cs=cs+rand
         count=count+rand
         run.innerHTML=count
         rs.innerHTML=cs
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
     }
     else{
         rand = Math.floor(
@@ -130,16 +131,16 @@ four.addEventListener("click",()=>{
 five.addEventListener("click",()=>{
 
     if(rand!=5){
-        rand = Math.floor(
-            Math.random() * nmbrs.length
-            
-        )
+
         ys.innerHTML ="5"
         os.innerHTML=rand
         cs=cs+rand
         count=count+rand
         run.innerHTML=count
         rs.innerHTML=cs
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
     }
     else{
         rand = Math.floor(
@@ -155,16 +156,16 @@ five.addEventListener("click",()=>{
 six.addEventListener("click",()=>{
 
     if(rand!=6){
-        rand = Math.floor(
-            Math.random() * nmbrs.length
-            
-        )
+
         ys.innerHTML ="6"
         os.innerHTML=rand
         cs=cs+rand
         count=count+rand
         run.innerHTML=count
         rs.innerHTML=cs
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
     }
     else{
         rand = Math.floor(
