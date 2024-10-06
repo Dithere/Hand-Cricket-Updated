@@ -37,14 +37,16 @@ one.addEventListener("click",()=>{
         )
     }
     else{
-        rand = Math.floor(
-            Math.random() * nmbrs.length  
-        )
+        ys.innerHTML ="1"
+        os.innerHTML=rand
+
         wicket=wicket+1
         wick.innerHTML=wicket
         count = 0
         alert("You Got Him Out")
-        
+        rand = Math.floor(
+            Math.random() * nmbrs.length  
+        )
     }
     return count
 
@@ -91,6 +93,8 @@ three.addEventListener("click",()=>{
     }
     
     else{
+        ys.innerHTML ="1"
+        os.innerHTML=rand
         rand = Math.floor(
             Math.random() * nmbrs.length  
         )
@@ -117,6 +121,8 @@ four.addEventListener("click",()=>{
         )
     }
     else{
+        ys.innerHTML ="1"
+        os.innerHTML=rand
         rand = Math.floor(
             Math.random() * nmbrs.length  
         )
@@ -143,6 +149,8 @@ five.addEventListener("click",()=>{
         )
     }
     else{
+        ys.innerHTML ="1"
+        os.innerHTML=rand
         rand = Math.floor(
             Math.random() * nmbrs.length  
         )
@@ -168,6 +176,8 @@ six.addEventListener("click",()=>{
         )
     }
     else{
+        ys.innerHTML ="1"
+        os.innerHTML=rand
         rand = Math.floor(
             Math.random() * nmbrs.length  
         )
